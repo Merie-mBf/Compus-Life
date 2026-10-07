@@ -31,7 +31,7 @@ header {
 }
 
 .navigation nav a:hover {
-    color: #1379e7;
+    color: #034BFF;
     text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .button-inscription a {
-    background-color: #1379e7;
+    background-color: #034BFF;
     color: white;
     padding: 10px 18px;
     border-radius: 5px;
@@ -63,8 +63,8 @@ header {
     flex-direction: row-reverse;
 }
 
-.image  {
-    width: 50%;
+.image {
+    width: 60%;
 }
 
 .image img {
@@ -72,15 +72,46 @@ header {
     height: 100%;
 }
 
-.texte{
-    width: 50%;
+.texte {
+    width: 40%;
     color: white;
     background-color:#08111D;
-    padding:50px;
+    font-family: "UM6P Text", "Inter", "Helvetica Neue", Arial, sans-serif;
+    padding: 90px;
 }
+
 .texte h1 {
     font-size: 80px;
+    line-height: 0.85;
+    margin-bottom: 10px;
 }
-.texte h1 strong{
-    color:#1379e7
+
+.texte h1 span {
+    color: #034BFF;
+}
+
+.texte strong {
+    font-weight: bold;
+    font-size: 40px;
+    display: block;
+    margin-top: 0;
+}
+
+.btn-primary {
+    
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #08111D;
+    background-color: #034BFF;
+    color: white;
+    
+
+}
+
+.btn-secondary {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #034BFF;
+    background-color: #08111D;
+    color: white;
 }
