@@ -76,8 +76,9 @@ header {
     width: 40%;
     color: white;
     background-color:#08111D;
-    font-family: "UM6P Text", "Inter", "Helvetica Neue", Arial, sans-serif;
-    padding: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 80px 20px 80px; 
+    
 }
 
 .texte h1 {
@@ -98,13 +99,13 @@ header {
 }
 
 .btn-primary {
-    
+
     padding: 10px;
     border-radius: 5px;
     border-color: #08111D;
     background-color: #034BFF;
     color: white;
-    
+
 
 }
 
@@ -113,5 +114,37 @@ header {
     border-radius: 5px;
     border-color: #034BFF;
     background-color: #08111D;
+    color: white;
+}
+
+.communauté {
+    margin-top: 50px;
+    background-color:#08111D;
+    display: flex;
+    color:#08111D;
+    width:100%;
+    gap: 60px;
+}
+.cercle{
+    margin:20px 0px 20px 0px;
+    display: flex;
+    gap: 0;
+
+}
+.cercle strong {
+    padding: 5px;
+    font-size: medium;
+    border: 5px solid #D7C3B6;
+    background-color: #D7C3B6;
+    border-radius: 50%;
+}
+
+.cercle strong:nth-child(even) {
+  border: 5px solid #B8C9CF;
+    background-color: #B8C9CF;
+;
+}
+
+.prgrph {
     color: white;
 }
