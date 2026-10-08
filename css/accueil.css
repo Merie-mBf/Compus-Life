@@ -1,8 +1,12 @@
+*{
+    font-family: " inter", sans-serif;
+}
 header {
     display: flex;
     align-items: center;
     padding: 15px 40px;
     background-color: white;
+    
 }
 
 .logo {
@@ -58,7 +62,7 @@ header {
     text-decoration: none;
 }
 
-.section1 {
+#section1 {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -75,25 +79,31 @@ header {
 .texte {
     width: 40%;
     color: white;
-    background-color:#08111D;
+    background-color: #08111D;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 80px 80px 20px 80px; 
-    
+    padding: 80px 80px 20px 80px;
+
 }
 
 .texte h1 {
-    font-size: 80px;
+    font-size: 90px;
     line-height: 0.85;
     margin-bottom: 10px;
 }
 
 .texte h1 span {
+    font-size: 75px;
+
     color: #034BFF;
+}
+
+.texte h1 small {
+    color: #C7F64A;
 }
 
 .texte strong {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     display: block;
     margin-top: 0;
 }
@@ -119,18 +129,20 @@ header {
 
 .communauté {
     margin-top: 50px;
-    background-color:#08111D;
+    background-color: #08111D;
     display: flex;
-    color:#08111D;
-    width:100%;
+    color: #08111D;
+    width: 100%;
     gap: 60px;
 }
-.cercle{
-    margin:20px 0px 20px 0px;
+
+.cercle {
+    margin: 20px 0px 20px 0px;
     display: flex;
     gap: 0;
 
 }
+
 .cercle strong {
     padding: 5px;
     font-size: medium;
@@ -140,11 +152,38 @@ header {
 }
 
 .cercle strong:nth-child(even) {
-  border: 5px solid #B8C9CF;
+    border: 5px solid #B8C9CF;
     background-color: #B8C9CF;
-;
+    ;
 }
 
 .prgrph {
     color: white;
+}
+
+#section2 {
+    display: flex;
+    background-color: white;
+}
+
+.bar {
+    width: 25%;
+}
+.bar span {
+    color: #034BFF;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.bar strong {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.bar small {
+    padding-left: 50px;
+    color:#47526A;
+
 }
