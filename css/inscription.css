@@ -1,0 +1,128 @@
+* {
+    font-family: " inter", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo span {
+    color: #08111D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation {
+    width: 50%;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    color: #08111D;
+}
+
+.navigation nav a:hover {
+    color: #034BFF;
+    text-decoration: underline;
+}
+
+.recherche-barre {
+    width: 10%;
+    text-align: center;
+    margin-right: -50px;
+}
+
+.recherche-barre img {
+    width: 25px;
+}
+
+.button-inscription {
+    width: 15%;
+    text-align: center;
+}
+
+.button-inscription a {
+    background-color: #034BFF;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h6 {
+    color: #034BFF;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#form {
+    padding-left: 40px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 600px;
+    padding: 10px;
+    border: 2px solid #a9b3c8;
+    border-radius: 6px;
+}
+
+input:focus {
+    border-color: #08111D;
+}
+
+.radio {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 20px 0 0 0;
+    vertical-align: middle;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 600px;
+    background-color: #034BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+
+}
