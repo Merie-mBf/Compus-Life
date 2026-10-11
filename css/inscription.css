@@ -189,4 +189,34 @@ footer {
     padding-right: 0%;
 }
 
+@media (max-width: 768px) {
+*{ box-sizing:border-box; }
 
+header{
+flex-wrap:wrap;
+padding:15px;
+gap:15px;
+}
+.logo{ width:40%; }
+.navigation{ width:100%; order:3; }
+.navigation nav{ justify-content:flex-start; flex-wrap:wrap; gap:15px; }
+.recherche-barre{ width:auto; margin-right:0; }
+.button-inscription{ width:auto; }
+
+#form{ padding:20px; }
+h1{ font-size:28px; }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button{
+width:100%;
+max-width:100%;
+}
+
+footer{ padding:15px; }
+.top{ flex-direction:column; gap:20px; padding:10px; }
+.top .logo, .lien{ width:100%; }
+.bottom{ flex-direction:column; gap:10px; }
+.left{ padding-left:0; }
+}

@@ -1,12 +1,13 @@
-*{
+* {
     font-family: " inter", sans-serif;
 }
+
 header {
     display: flex;
     align-items: center;
     padding: 15px 40px;
     background-color: white;
-    
+
 }
 
 .logo {
@@ -14,7 +15,7 @@ header {
 }
 
 .logo span {
-    color: black;
+    color: #08111D;
     font-size: 25px;
     font-weight: bold;
 }
@@ -31,7 +32,7 @@ header {
 
 .navigation nav a {
     text-decoration: none;
-    color: #222;
+    color: #08111D;
 }
 
 .navigation nav a:hover {
@@ -109,22 +110,23 @@ header {
 }
 
 .btn-primary {
-
+    display: inline-block;
     padding: 10px;
     border-radius: 5px;
-    border-color: #08111D;
+    border: 1px solid #08111D;
     background-color: #034BFF;
     color: white;
-
-
+    text-decoration: none;
 }
 
 .btn-secondary {
+    display: inline-block;
     padding: 10px;
     border-radius: 5px;
-    border-color: #034BFF;
+    border: 1px solid #034BFF;
     background-color: #08111D;
     color: white;
+    text-decoration: none;
 }
 
 .communauté {
@@ -164,11 +166,13 @@ header {
 #section2 {
     display: flex;
     background-color: white;
+    padding-bottom: 10px;
 }
 
 .bar {
     width: 25%;
 }
+
 .bar span {
     color: #034BFF;
     font-size: 50px;
@@ -184,6 +188,515 @@ header {
 
 .bar small {
     padding-left: 50px;
-    color:#47526A;
+    color: #47526A;
+}
 
+#section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    background-color: #f9fafb;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+#section3 .right {
+    width: 38%;
+}
+
+#section3 .right h6 {
+    color: #4a6cf7;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+#section3 .right h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #0a0a23;
+    margin: 0 0 15px 0;
+}
+
+#section3 .right p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    background: #2f6bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#section3 .left {
+    width: 58%;
+    position: relative;
+    height: 380px;
+}
+
+
+#section3 .left img {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+#img3 {
+    width: 300px;
+    height: 300px;
+    left: 20px;
+    top: 10px;
+    transform: rotate(-3deg);
+    z-index: 1;
+}
+
+#img2 {
+    width: 240px;
+    height: 200px;
+    left: 250px;
+    top: 140px;
+    transform: rotate(3deg);
+    z-index: 2;
+}
+
+#img1 {
+    width: 260px;
+    height: 200px;
+    left: 450px;
+    top: 20px;
+    transform: rotate(4deg);
+    z-index: 3;
+}
+
+
+#S1,
+#S2,
+#S3 {
+    position: absolute;
+    background: #111;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    z-index: 10;
+    width: 130px;
+    white-space: nowrap;
+}
+
+#S1 {
+    left: 60px;
+    top: 280px;
+}
+
+#S2 {
+    left: 280px;
+    top: 310px;
+}
+
+#S3 {
+    left: 480px;
+    top: 180px;
+    transform:
+        rotate(-2deg);
+}
+
+
+#section3 .left::before,
+#section3 .left::after {
+    content: "";
+    position: absolute;
+    background: #2f6bff;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+#section3 .left::before {
+    width: 90px;
+    height: 90px;
+    left: 340px;
+    top: 70px;
+    transform: rotate(20deg);
+}
+
+#section3 .left::after {
+    width: 90px;
+    height: 90px;
+    left: -20px;
+    top: 160px;
+    border-radius: 6px;
+}
+
+
+#section4 {
+    background-color: #08111D;
+    color: white;
+    padding: 50px;
+
+}
+
+#section4 h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#section4 h6 {
+    margin: 5px 0 40px 0;
+    padding: 0;
+    color: #8a94a6;
+    font-weight: 400;
+}
+
+.pas {
+    display: flex;
+    gap: 5%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.one,
+.two,
+.tree,
+.four,
+.five,
+.six {
+    display: grid;
+    width: 20%;
+    text-align: center !important;
+    place-items: center;
+}
+
+.pas small {
+    color: #8a94a6;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.pas span {
+    width: 50px;
+    height: 50px;
+    background-color: #034BFF;
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.four span {
+    background-color: blueviolet;
+}
+
+.tree span {
+    background-color: #00D084;
+}
+
+.six span {
+    background-color: #D4FF00;
+}
+
+.pas strong {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.pas p {
+    font-size: 12px;
+    color: #8a94a6;
+    margin: 0;
+    line-height: 1.4;
+}
+
+#section5 {
+    background: white;
+    padding: 20px;
+}
+
+.mere {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.bleu {
+    background: #2A5BFF;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.bleu h6 {
+    font-size: 10px;
+    margin: 0;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.bleu h1 {
+    font-size: 22px;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.bleu p {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+.bleu a {
+    display: inline-block;
+    background: white;
+    color: #2A5BFF;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.OCT,
+.NOV,
+.DEC {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    position: relative;
+}
+
+.OCT img,
+.NOV img,
+.DEC img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.OCT h3,
+.NOV h3,
+.DEC h3 {
+    font-size: 13px;
+    margin: 30px 12px 5px 12px;
+}
+
+.OCT small,
+.NOV small,
+.DEC small {
+    font-size: 11px;
+    color: #9ca3af;
+    margin: 0 12px 15px 12px;
+    display: block;
+}
+
+#section6 {
+    background-color: #f9fafb;
+    padding: 0px 0px 0px 90px;
+}
+
+.jeune {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.jeune img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.commentaire p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    line-height: 1.4;
+}
+
+.commentaire span {
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.commentaire small {
+    font-size: 11px;
+    color: #9ca3af;
+    display: block;
+    margin-top: 3px;
+}
+
+footer {
+    background-color: #08111D;
+    padding: 15px 40px;
+    margin-top: 0;
+}
+
+.haut {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    gap: 130px;
+}
+
+.haut a {
+    text-decoration: none;
+}
+
+.droite {
+    width: 40%;
+}
+
+.droite span {
+    color: white;
+}
+
+.droite p {
+    color: #B2BDB3;
+}
+
+.milieu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    width: 20%;
+}
+
+.milieu span {
+    color: #C3F85C;
+}
+
+.milieu a {
+    color: white;
+}
+
+.gauche span {
+    font-size: 12px;
+    color: #C3F85C;
+    padding-left: 30%;
+}
+
+.gauche a {
+    display: inline-block;
+    margin-top: 15px;
+    background: #C3F85C;
+    color: #08111D;
+    padding: 18px 40px 20px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding-left: 20%;
+}
+
+
+.bas {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+}
+
+.bas p {
+    color: #B2BDB3;
+}
+
+.bas .left {
+    width: 50%;
+    display: flex;
+    gap: 10%;
+    padding-left: 40%;
+
+}
+
+.bas .right {
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+* { box-sizing: border-box; }
+body { overflow-x: hidden; }
+
+
+header{
+flex-wrap:wrap;
+padding:15px;
+gap:15px;
+}
+.logo{ width:40%; }
+.navigation{ width:100%; order:3; }
+.navigation nav{ justify-content:flex-start; gap:15px; flex-wrap:wrap; }
+.recherche-barre{ width:auto; margin-right:0; }
+.button-inscription{ width:auto; }
+
+
+#section1{ flex-direction:column; }
+.image, .texte{ width:100%; }
+.texte{ padding:30px 20px; }
+.texte h1{ font-size:50px; }
+.texte h1 span{ font-size:40px; }
+.texte strong{ font-size:25px; }
+.communauté{ flex-direction:column; gap:20px; padding:20px; }
+
+
+#section2{ flex-wrap:wrap; gap:20px; padding:20px; }
+.bar{ width:45%; }
+.bar span, .bar strong, .bar small{ padding-left:0; }
+
+
+#section3{ flex-direction:column; padding:20px; }
+#section3 .right, #section3 .left{ width:100%; }
+#section3 .left{ height:auto; display:flex; flex-direction:column; gap:15px; }
+#section3 .left img{ position:static; width:100%; height:200px; transform:none; }
+#S1,#S2,#S3{ position:static; width:100%; margin-top:-10px; transform:none; }
+#section3 .left::before, #section3 .left::after{ display:none; }
+
+
+#section4{ padding:20px; }
+.pas{ flex-wrap:wrap; gap:20px; }
+.one,.two,.tree,.four,.five,.six{ width:45%; }
+
+
+#section5{ padding:15px; }
+.mere{ grid-template-columns:1fr; }
+
+
+#section6{ padding:20px; }
+.jeune{ grid-template-columns:1fr; gap:20px; }
+.commentaire p{ font-size:16px; }
+
+
+footer{ padding:15px; }
+.haut{ flex-direction:column; gap:20px; padding:10px; }
+.droite, .milieu, .gauche{ width:100%; }
+.gauche span{ padding-left:0; }
+.gauche a{ padding-left:10px; width:100%; }
+.bas{ flex-direction:column; gap:15px; }
+.bas .left{ padding-left:0; }
+}
+
+@media (max-width: 480px) {
+.bar{ width:100%; }
+.one,.two,.tree,.four,.five,.six{ width:100%; }
+.texte h1{ font-size:35px; }
 }
